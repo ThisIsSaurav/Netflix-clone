@@ -1,0 +1,104 @@
+@media (max-width: 1000px) {
+    .heading-box span h1 {
+        font-size: 40px;
+    }
+
+    .heading-box span p {
+        font-size: 15px;
+    }
+
+    .heading-box span {
+        font-size: 15px;
+    }
+
+    .main .nav #netflix {
+        width: 100px;
+    }
+
+    .heading-box .email-section {
+        flex-direction: column;
+    }
+
+    .heading-box .email-section input {
+        width: 50vw;
+    }
+
+    .heading-box .email-section button {
+        width: 20vw;
+        margin-top: 12px;
+        height: 7vw;
+    }
+
+   
+}
+
+@media (max-width: 480px) {
+    .heading-box span h1 {
+        font-size: 30px;
+    }
+
+    .heading-box span p {
+        font-size: 14px;
+    }
+
+    .heading-box span {
+        font-size: 13px;
+    }
+
+    .nav-btn #lang-btn span {
+        display: none;
+    }
+
+    .nav-btn #lang-btn {
+        justify-content: center;
+        padding: 7px 6px;
+        width: auto;
+    }
+    .sections {
+        flex-direction: column;
+    }
+
+    .sections .secLeft h1 {
+        width: 90vw;
+        text-align: center;
+        font-size: 33px;
+    }
+
+    .sections .secLeft p {
+        width: 90vw;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .sections .secRight img {
+        width: 70vw;
+        z-index: 2;
+        position: relative;
+    }
+
+    .sections .secRight video {
+        position: absolute;
+        left: 5vw;
+        top: 8vw;
+        width: 62vw;
+        z-index: 1;
+    }
+
+    .third .secRight video {
+        left: 12vw;
+        top: 3vw;
+        width: 45vw;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-btn {
+        margin-top: 12px;
+    }
+}
